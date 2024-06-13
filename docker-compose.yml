@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  enterprise.example.consolerunner:
+    image: ${DOCKER_REGISTRY-}enterpriseexampleconsolerunner
+    build:
+      context: .
+      dockerfile: Enterprise.Example.ConsoleRunner/Dockerfile

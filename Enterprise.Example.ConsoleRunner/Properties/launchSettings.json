@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Enterprise.Example.ConsoleRunner": {
+      "commandName": "Project",
+      "commandLineArgs": "-d \"08-NOV-2021\" -n \"TEST NOTIFICATION\""
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
