@@ -15,6 +15,7 @@ namespace Enterprise.Example.ConsoleRunner
 {
     public class Program
     {
+        // This is a comment
         private static IConfiguration Configuration { get; set; }
         private static Serilog.ILogger Logger { get; set; }
 
